@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const client2 = new Discord.Client();
 
 client.on('ready', () => {
-client.user.setGame("V12.", "https://twitch.tv/Reeebel");
+client.user.setGame("bradh", "WATCHING");
    console.log(`Ready!`);
 });
 
