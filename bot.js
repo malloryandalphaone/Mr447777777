@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const client2 = new Discord.Client();
 
 client.on('ready', () => {
-client.user.setGame("bradh", "WATCHING");
+client.user.setGame("bradh");
    console.log(`Ready!`);
 });
 
